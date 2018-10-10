@@ -7,6 +7,7 @@ class Dgraph < Formula
 
   def install
     bin.install "dgraph"
+    bin.install "dgraph-ratel"
   end
 
   test do
