@@ -6,8 +6,7 @@ class Dgraph < Formula
   sha256 "9a3d518a4107a8c9bab2a71333bb7c80e7e875884c4cfd2ad5f30b500967d9eb"
 
   def install
-    bin.install "dgraph"
-    bin.install "dgraph-ratel"
+    bin.install "dgraph", "dgraph-ratel"
   end
 
   test do
